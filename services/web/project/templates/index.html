@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+</head>
+<body>
+    <h1>Masukkan Data</h1>
+    <form action="{{ url_for('index') }}" method="post">
+        <label for="nis">NIS:</label>
+        <input type="text" name="nis" id=""><br>
+        <label for="nama">Nama:</label>
+        <input type="text" name="nama" id=""><br>
+        <label for="tempat_lahir">Tempat Lahir:</label>
+        <input type="text" name="tempat_lahir">
+        <label for="tanggal_lahir">Tanggal Lahir:</label>
+        <input type="date" name="tanggal_lahir"><br>
+        <label for="alamat">Alamat:</label>
+        <textarea name="alamat" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="submit">
+    </form>
+    <a href="{{ url_for('listSiswa') }}">Page List</a>
+</body>
+</html>
