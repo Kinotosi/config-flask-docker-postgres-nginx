@@ -29,4 +29,4 @@ docker-compose up -d --build
 docker-compose exec web python manage.py create_db
 ```
 ## References
-[https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/#postgres](https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/#postgres)
+[https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/](https://testdriven.io/blog/dockerizing-flask-with-postgres-gunicorn-and-nginx/)
